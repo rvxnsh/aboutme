@@ -1,0 +1,239 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-image: url();
+}
+
+.Menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0e0e0e;
+    color: #f0f8ff;
+    padding: 0 20px 10px 20px;
+    height: 100px;
+}
+
+.Menu_left {
+    padding: 30px;
+    justify-content: center;
+    font: 30px monospace;
+    font-weight: bold;
+
+}
+
+.Menu_center {
+    padding: 35px;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    font: 20px monospace;
+    font-weight: bold;
+}
+
+.Menu_center :hover {
+    color: #ff8484;
+    font: 22px monospace;
+    text-decoration: underline;
+    transition: linear 0.2s;
+
+}
+
+.Menu_right_button {
+    margin-top: 13px;
+    padding: 20px;
+    font: 20px sans-serif;
+    border: #dfdfdf 3px solid;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.Menu_right :hover {
+    color: #272727;
+    background: #dfdfdf;
+    border: 3px solid #272727;
+    transition: linear 0.3s;
+
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/images/background1.png);
+}
+
+.home_leftrow {
+    float: left;
+    margin: 150px 100px 200px 50px;
+}
+
+.home_leftrowh2 {
+    font: 45px monospace;
+    font-weight: bold;
+
+}
+
+.home_leftrowh4 {
+    font: 60px monospace;
+    font-weight: bold;
+
+}
+
+.home_leftrowp {
+    font: 20px monospace;
+
+}
+
+.home_buttons {
+    display: flex;
+    justify-content: left;
+}
+
+.home_button1 {
+    color: #ff8484;
+    margin: 30px 10px;
+    padding: 20px;
+    font: 20px sans-serif;
+    border: #0e0e0e 3px solid;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.home_buttons :hover {
+    color: #ff8484;
+    background: #0e0e0e;
+    border: 3px solid #272727;
+    transition: linear 0.3s;
+
+}
+
+
+.home_rightrow {
+    float: right;
+}
+
+.home_rightrowimg {
+    margin: 50px 200px 150px 100px;
+    border: 0px;
+    box-shadow:
+        0 0 7px #fff,
+        0 0 100px #ff8484;
+    border-radius: 750px;
+    height: 500px;
+    width: 300px;
+}
+
+
+.aboutme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0e0e0e;
+}
+
+.aboutme_lefttrow {
+    float: left;
+}
+
+.aboutme_leftrowimg {
+    margin: 150px 100px 150px 200px;
+    border: 0px;
+    box-shadow:
+        0 0 7px #fff,
+        0 0 100px #ff8484;
+    border-radius: 750px;
+    height: 500px;
+    width: 300px;
+}
+
+.aboutme_rightrow {
+    float: right;
+    margin: 100px 200px 200px 100px;
+}
+
+.aboutme_rightrowh2 {
+    color: #dfdfdf;
+    font: 45px monospace;
+    font-weight: bold;
+
+}
+
+.aboutme_rightrowp {
+    color: #dfdfdf;
+    font: 20px monospace;
+
+}
+
+.aboutme_buttons {
+    display: flex;
+    justify-content: left;
+}
+
+.aboutme_button1 {
+    color: #0e0e0e;
+    margin: 30px 10px;
+    padding: 20px;
+    font: 20px sans-serif;
+    border: #ff8484 3px solid;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #ff8484;
+}
+
+.aboutme_buttons :hover {
+    color: #ff8484;
+    background: #0e0e0e;
+    border: 3px solid #ff8484;
+    transition: linear 0.3s;
+
+}
+
+.contactme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/images/background1.png);
+}
+
+.contactme_title {
+    float: inline-start;
+    font: 45px monospace;
+    font-weight: bold;
+    padding: 20px;
+    margin: 300px;
+
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    margin: 10px;
+    width: 200px;
+    height: 30px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #ff8484;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    color: #ff8484;
+    background: #0e0e0e;
+    border: 3px solid #ff8484;
+    transition: linear 0.3s;
+}
